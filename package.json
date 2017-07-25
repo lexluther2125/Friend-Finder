@@ -1,0 +1,25 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": " a compatibility-based \"FriendFinder\" application",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexluther2125/Friend-Finder.git"
+  },
+  "author": "Lexi Majoue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexluther2125/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/lexluther2125/Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
+}
