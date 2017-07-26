@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder Survey</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <h2 style="margin-left: 96px;">Survey Questions</h2>
+    <hr style="width: 1140px;">
+    <h3 style="margin-left: 96px;"><strong>About You</strong></h3>
+    <div style="margin-left: 96px; margin-right: 96px;">
+        <form>
+            <div class="form-group">
+                <h4 id="name">Name (Required)</h4>
+                <input type="name" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <h4 id="photo">Link to Photo Image (Required)</h4>
+                <input type="photo" class="form-control" id="photo">
+            </div>
+        </form>
+    </div>
+    <hr style="width: 1140px;">
+    <h3 style="margin-left: 96px;" id="q1"><strong>Question 1</strong></h3>
+    <h4 style="margin-left: 96px;">Tacos are the best food ever.</h4>
+    <form id="score" action="demo_form.asp" style="margin-left: 96px;">
+        <select required>
+            <option value="" disabled selected hidden>Choose an option</option>
+            <option>1 (Strongly Disagree)</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5 (Strongly Agree)</option>
+        </select>
+    </form>
+    <h3 style="margin-left: 96px;" id="q2"><strong>Question 2</strong></h3>
+    <h4 style="margin-left: 96px;">You like cats more than dogs.</h4>
+    <form id="score" action="demo_form.asp" style="margin-left: 96px;">
+        <select required>
+            <option value="" disabled selected hidden>Choose an option</option>
+            <option>1 (Strongly Disagree)</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5 (Strongly Agree)</option>
+        </select>
+    </form>
+    <h3 style="margin-left: 96px;" id="q3"><strong>Question 3</strong></h3>
+    <h4 style="margin-left: 96px;">The book is always better than the movie.</h4>
+    <form id="score" action="demo_form.asp" style="margin-left: 96px;">
+        <select required>
+            <option value="" disabled selected hidden>Choose an option</option>
+            <option>1 (Strongly Disagree)</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5 (Strongly Agree)</option>
+        </select>
+    </form>
+    <h3 style="margin-left: 96px;" id="q4"><strong>Question 4</strong></h3>
+    <h4 style="margin-left: 96px;">You prefer being outside more than inside.</h4>
+    <form id="score" action="demo_form.asp" style="margin-left: 96px;">
+        <select required>
+            <option value="" disabled selected hidden>Choose an option</option>
+            <option>1 (Strongly Disagree)</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5 (Strongly Agree)</option>
+        </select>
+    </form>
+    <h3 style="margin-left: 96px;" id="q5"><strong>Question 5</strong></h3>
+    <h4 style="margin-left: 96px;">Smiling is your favorite.</h4>
+    <form id="score" action="demo_form.asp" style="margin-left: 96px;">
+        <select required>
+            <option value="" disabled selected hidden>Choose an option</option>
+            <option>1 (Strongly Disagree)</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5 (Strongly Agree)</option>
+        </select>
+    </form>
+    <h3 style="margin-left: 96px;" id="q6"><strong>Question 6</strong></h3>
+    <h4 style="margin-left: 96px;">Getting lost is an adventure.</h4>
+    <form id="score" action="demo_form.asp" style="margin-left: 96px;">
+        <select required>
+            <option value="" disabled selected hidden>Choose an option</option>
+            <option>1 (Strongly Disagree)</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5 (Strongly Agree)</option>
+        </select>
+    </form>
+    <h3 style="margin-left: 96px;" id="q7"><strong>Question 7</strong></h3>
+    <h4 style="margin-left: 96px;">You'd rather see a movie in the theater than rent it at home.</h4>
+    <form id="score" action="demo_form.asp" style="margin-left: 96px;">
+        <select required>
+            <option value="" disabled selected hidden>Choose an option</option>
+            <option>1 (Strongly Disagree)</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5 (Strongly Agree)</option>
+        </select>
+    </form>
+    <h3 style="margin-left: 96px;" id="q8"><strong>Question 8</strong></h3>
+    <h4 style="margin-left: 96px;">Bike riding is the best.</h4>
+    <form id="score" action="demo_form.asp" style="margin-left: 96px;">
+        <select required>
+            <option value="" disabled selected hidden>Choose an option</option>
+            <option>1 (Strongly Disagree)</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5 (Strongly Agree)</option>
+        </select>
+    </form>
+    <h3 style="margin-left: 96px;" id="q9"><strong>Question 9</strong></h3>
+    <h4 style="margin-left: 96px;">You can't live without music.</h4>
+    <form id="score" action="demo_form.asp" style="margin-left: 96px;">
+        <select required>
+            <option value="" disabled selected hidden>Choose an option</option>
+            <option>1 (Strongly Disagree)</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5 (Strongly Agree)</option>
+        </select>
+    </form>
+    <h3 style="margin-left: 96px;" id="q10"><strong>Question 10</strong></h3>
+    <h4 style="margin-left: 96px;">You'd rather create art than look at art.</h4>
+    <form id="score" action="demo_form.asp" style="margin-left: 96px;">
+        <select required>
+            <option value="" disabled selected hidden>Choose an option</option>
+            <option>1 (Strongly Disagree)</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5 (Strongly Agree)</option>
+        </select>
+    </form>
+    <br>
+    <button type="button" class="btn btn-primary btn-block" style="width: 1140px; height:46px; margin-left: 96px; font-size: 18px;"><span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Submit</button>
+    <hr style="width: 1140px;">
+    <div>
+        <p style="margin-left: 100px; padding-bottom: 15px;"><a href="https://friend-finder.herokuapp.com/api/friends">API Friends List</a> |
+            <a href="https://github.com/lexluther2125/Friend-Finder">GitHub Repo</a></p>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title" id="myModalLabel">Best Match</h3>
+                </div>
+                <div class="modal-body">
+                    <!-- New friend goes here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<div id="resultsModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title"><strong>Best Match</strong></h2>
+            </div>
+            <div class="modal-body">
+                <h2 id="matchName"></h2>
+                <img id="matchImg" src="https://i.ytimg.com/vi/PXh47Z_iYlU/maxresdefault.jpg" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$("#submit").on("click", function() {
+
+    function validateForm() {
+        var isValid = true;
+        $('.form-control').each(function() {
+            if ($(this).val() === '')
+                isValid = false;
+        });
+        $('.chosen-select').each(function() {
+            if ($(this).val() === "")
+                isValid = false
+        })
+        console.log('1');
+        return isValid;
+    }
+
+    if (validateForm() == true) {
+
+        var userData = {
+            name: $("#name").val(),
+            photo: $("#photo").val(),
+            scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
+        }
+
+        var currentURL = window.location.origin;
+
+        $.post(currentURL + "/api/friends", userData, function(data) {
+
+            $("#matchName").text(data.name);
+            $('#matchImg').attr("src", data.photo);
+            console.log('2');
+            $("#resultsModal").modal('toggle');
+        });
+    } else {
+        alert("Please fill out all fields before submitting!");
+    }
+
+    return false;
+});
+</script>
+
+</html>
