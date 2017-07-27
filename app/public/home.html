@@ -8,20 +8,59 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    .jumbotron {
+        width: 1141px;
+        height: 402px;
+        margin-left: 96px;
+    }
+
+    #title {
+        margin-left: 40px;
+    }
+
+    #glyph {
+        width: 64px;
+        height: 64px;
+    }
+
+    #line {
+        width: 1010px;
+    }
+
+    .text {
+        margin-left: 40px;
+    }
+
+    #button {
+        width: 165px;
+        height: 62px;
+        margin-left: 40px;
+        margin-top: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #links {
+        margin-left: 100px;
+        padding-bottom: 15px;
+    }
+    </style>
 </head>
+
 <body>
-<div class="jumbotron" style="width:1141px; height:402px; margin-left: 96px;">
-  <h1 style="margin-left: 40px;"><span class="glyphicon glyphicon-user" aria-hidden="true" style="width: 64px; height: 64px;"></span> Friend Finder</h1>
-  <hr style="width: 1010px;">
-  <h2 style="margin-left: 40px;">Answer a few basic questions.</h2>
-  <h2 style="margin-left: 40px;">Then find a friend with the greatest compatibility!</h2>
-  <a href="/survey"><button style="width: 165px; height: 62px;margin-left: 40px; margin-top:20px; padding-top: 15px; padding-bottom: 15px;" type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Go to Survey</button>
-</div>
-<div>
-<p style="margin-left: 100px; padding-bottom: 15px;"><a href="https://friend-finder.herokuapp.com/api/friends">API Friends List</a>
- | 
-<a href="https://github.com/lexluther2125/Friend-Finder">GitHub Repo</a></p>
-</div>
+    <div class="jumbotron">
+        <h1 id="title"><span id="glyph" class="glyphicon glyphicon-user" aria-hidden="true"></span> Friend Finder</h1>
+        <hr>
+        <h2 class="text">Answer a few basic questions.</h2>
+        <h2 class="text">Then find a friend with the greatest compatibility!</h2>
+        <a href="/survey">
+            <button id="button" type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Go to Survey</button>
+    </div>
+    <div>
+        <p id="links"><a href="https://friend-finder.herokuapp.com/api/friends">API Friends List</a> |
+            <a href="https://github.com/lexluther2125/Friend-Finder">GitHub Repo</a></p>
+    </div>
 </body>
 
 </html>
